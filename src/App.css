@@ -4,29 +4,32 @@
   flex-direction: column;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 230px;
-  font-size: 36px;
-  background-image: url('./icons/header.jpg');
-  font-weight: bold;
-  padding: 20px;
+.App > div {
+  padding: 20px
 }
-
-
-.search {
-  border: 1px solid lightgray;
-  border-top: 0px;
-  height: 400px;
-}
-
 
 .explore {
   border: 1px solid lightgray;
   border-top: 0px;
   height: 200px;
+}
+
+.categories {
+  display: flex;
+  font-weight: bold
+}
+
+.category {
+  display: flex;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  width: 260px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.category span {
+  padding-left: 20px
 }
 
 .plus {

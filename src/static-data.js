@@ -2,17 +2,17 @@ export const data = {
     explore: [
         {
             id: 0,
-            name: 'homes',
+            name: 'Homes',
             src: require('./icons/explore-homes.jpg')
         },
         {
             id: 1,
-            name: 'experiences',
+            name: 'Experiences',
             src: require('./icons/explore-experiences.jpg')
         },
         {
             id: 2,
-            name: 'restaurants',
+            name: 'Restaurants',
             src: require('./icons/explore-restaurants.jpeg')
         },
     ],
