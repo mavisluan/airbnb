@@ -8,12 +8,6 @@
   padding: 20px
 }
 
-.explore {
-  border: 1px solid lightgray;
-  border-top: 0px;
-  height: 200px;
-}
-
 .categories {
   display: flex;
   font-weight: bold
@@ -32,14 +26,40 @@
   padding-left: 20px
 }
 
-.plus {
-  border: 1px solid lightgray;
-  border-top: 0px;
-  height: 230px;
+.plus-image {
+  background-image: url('./icons/plus.jpg');
+  height: 300px;
 }
 
 .recommended {
   border: 1px solid lightgray;
   border-top: 0px;
   height: 300px;
+}
+
+.cities {
+  display: flex;
+  flex: 1;
+  justify-content: space-around
+}
+
+.city {
+  flex: 1;
+}
+
+.city-image {
+  width: 180px;
+  height: 200px;
+  filter: brightness(60%)
+}
+
+.city-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position:absolute;
+  margin-top: -80px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: white
 }

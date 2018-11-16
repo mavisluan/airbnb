@@ -1,74 +1,72 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 500px;
-    font-size: 36px;
-    background-image: url('./icons/header.jpg');
-    background-size: cover;
-    font-weight: bold;
-    color: white
-  }
-  
-  .logo span {
-    font-size: 40px;
-    color: #FF5C6D;
-    padding-right: 20px;
-  }
-  
-  .search-input {
-    display: flex;
-    flex-direction: column;
-    height: 400px;
-    max-width: 500px;
-    font-size: 14px;
-    background-color: white;
-    border-radius: 5px;
-    color:black
-  }
-  
-  .search-input > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;
-    border-top: 0px;
-    padding: 10px;
-  }
-  
-  .search-input input {
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-size: 18px;
-    height: 40px;
-    outline-style: none
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 500px;
+  font-size: 36px;
+  background-image: url('./icons/header.jpg');
+  background-size: cover;
+  font-weight: bold;
+  color: white
+}
 
+.logo span {
+  font-size: 40px;
+  color: #FF5C6D;
+  padding-right: 20px;
+}
 
-  
-  .duration > div {
-    display: flex;
-    flex: 1;
-  }
-  
-  .duration input {
-    flex: 1;
-    margin-top: -10px;
-  }
-  
-  .duration span {
-    flex: 1;
-  }
-  
-  .search >div {
-    display: flex;
-    border-radius: 5px;
-    font-size: 18px;
-    height: 40px;
-    align-items: center;
-    justify-content: center;
-    background-color: #FF5C6D;
-    color: white;
-    font-weight: bold;
-  }
+.search-input {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  max-width: 500px;
+  font-size: 14px;
+  background-color: white;
+  border-radius: 5px;
+  color:black
+}
+
+.search-input > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  border-top: 0px;
+  padding: 10px;
+}
+
+.search-input input {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 18px;
+  height: 40px;
+  outline-style: none
+}
+
+.duration > div {
+  display: flex;
+  flex: 1;
+}
+
+.duration input {
+  flex: 1;
+  margin-top: -10px;
+}
+
+.duration span {
+  flex: 1;
+}
+
+.search >div {
+  display: flex;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: #FF5C6D;
+  color: white;
+  font-weight: bold;
+}

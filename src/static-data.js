@@ -30,7 +30,7 @@ export const data = {
         { 
             id: 1, 
             name: 'London',
-            src: require('./icons/paris.jpg'),
+            src: require('./icons/london.jpg'),
             price: 117
         },
         { 
