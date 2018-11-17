@@ -11,6 +11,6 @@ This is a simple Airbnb home page demo
 ## Installation Instructions
 
 - git clone https://github.com/mavisluan/airbnb.git
-- cd shopping_cart
+- cd airbnb
 - yarn install
 - yarn start
